@@ -1,0 +1,83 @@
+0_TCP_segment_count_all:the number of packets with 0 payload in the flow. 
+0_TCP_segment_count_up:the number of packets with 0 payload in the up-flow. 
+0_TCP_segment_count_down:the number of packets with 0 payload in the down-flow.
+0_TCP_segment_ratio_all:the proportion of packets with 0 payload in the flow.
+0_TCP_segment_ratio_up:the proportion of packets with 0 payload in the up-flow.
+0_TCP_segment_ratio_down:the proportion of packets with 0 payload in the down-flow.
+0_no0_TCP_segment_count_ratio_all:the ratio of zero to nonzero packets in the TCP data field in the flow.
+0_no0_TCP_segment_count_ratio_up:the ratio of zero to nonzero packets in the TCP data field in the up-flow.
+0_no0_TCP_segment_count_ratio_down:the ratio of zero to nonzero packets in the TCP data field in the down-flow.
+All_TCP_time_all:flow duration.
+All_TCP_time_down: down-flow duration.
+All_TCP_time_up:up-flow duration.
+All_TCP_time_ratio:ratio of up to down duration time.
+Bit_Positions_Meter:add the bit values in the first eight packets of a stream.
+Bit_Value_Meter:the expected occurrence of a bit value of 0 in the packet payload.
+Byte_Frequency_Meter:for the payload of the flow, take the first 32 bytes of the first 5 packets, count the number of 256 possibilities, calculate the probability, and then calculate the entropy.
+Down_byte_equality_meter:in the first 4 packets of down-flow, the first 32 bytes of each packet are compared with the same position bytes of the previous packet in the same direction, the same is denoted as 1, the inequality is denoted as 0, and finally the 32-bit binary is converted to the decimal system.
+Down_push_flag:number of push flags in the down-flow.
+IP_header_MAX_all:the max lenth of ip header in the flow.
+IP_header_MAX_up:the max lenth of ip header in the up-flow.
+IP_header_MAX_down:the max lenth of ip header in the down-flow.
+IP_header_mean_all:the mean lenth of ip header in the flow.
+IP_header_mean_up:the mean lenth of ip header in the up-flow.
+IP_header_mean_down:the mean lenth of ip header ine th down-flow.
+IP_header_min_all:the min lenth of ip header in the flow.
+IP_header_min_up:the min lenth of ip header in the up-flow.
+IP_header_min_down:the min lenth of ip header in the down-flow.
+inside_TCP_port:the local port of TCP.
+MEAN_TCP_window_size: the mean TCP window size.
+Max_down_packet_interval:the max interval of packet in down-flow.
+Max_down_packet_length:the max lenth of packet in down-flow.
+Max_up_packet_interval:the max interval of packet in up-flow.
+Max_up_packet_length:the max lenth of packet in up-flow.
+Mean_down_packet_interval:the mean interval of packet in down-flow.
+Mean_down_packet_length:the mean lenth of packet in down-flow.
+Mean_up_packet_interval:the mean interval of packet in up-flow.
+Mean_up_packet_length:the mean lenth of packet in up-flow.
+Min_down_packet_interval:the min interval of packet in down-flow.
+Min_down_packet_length:the min lenth of packet in down-flow.
+Min_up_packet_interval:the min interval of packet in up-flow.
+Min_up_packet_length:the min lenth of packet in up-flow.
+No_0_TCP_segment_meanlenth_all:the mean lenth of packets, whos payload is not 0 in the flow.
+No_0_TCP_segment_meanlenth_up:the mean lenth of packets, whos payload is not 0 in the up-flow.
+No_0_TCP_segment_meanlenth_down:the mean lenth of packets, whos payload is not 0 in the down-flow.
+No_0_TCP_time_ratio_all:The ratio of packet duration with non-zero TCP payload to total flow.
+No_0_TCP_time_ratio_up:The ratio of packet duration with non-zero TCP payload to total up-flow.
+No_0_TCP_time_ratio_down:The ratio of packet duration with non-zero TCP payload to total down-flow.
+0_TCP_time_ratio_all:The ratio of packet duration with zero TCP payload to total flow.
+Std_down_packet_length:Standard deviation of the packets length in the down-flow.
+Std_down_packet_interval:Standard deviation of the interval time of the packets in the down-flow.
+Std_packet_interval:Standard deviation of the interval time of the packets in the flow.
+Std_up_packet_interval:Standard deviation of the interval time of the packets in the up-flow.
+Std_up_packet_length:Standard deviation of the packets length in the up-flow.
+Std_packet_length:Standard deviation of the packets length in the flow.
+TCP_header_MAX_all:the max lenth of TCP header in the flow.
+TCP_header_MAX_up:the max lenth of TCP header in the up-flow.
+TCP_header_MAX_down:the max lenth of TCP header in the down-flow.
+TCP_header_mean_all:the mean lenth of TCP header in the flow.
+TCP_header_mean_up:the mean lenth of TCP header in the up-flow.
+TCP_header_mean_down:the mean lenth of TCP header ine th down-flow.
+TCP_header_min_all:the min lenth of TCP header in the flow.
+TCP_header_min_up:the min lenth of TCP header in the up-flow.
+TCP_header_min_down:the min lenth of TCP header in the down-flow.
+TCP_playload_lenth_all:the lenth of payload in the flow.
+TCP_playload_lenth_up:the lenth of payload in the up-flow.
+TCP_playload_lenth_down:the lenth of payload in the down-flow.
+TCP_playload_lenth_count_all:Number of types of TCP payload in the flow.
+TCP_playload_lenth_count_up:Number of types of TCP payload in the up-flow.
+TCP_playload_lenth_count_down:Number of types of TCP payload in the down-flow.
+TCP_playload_meanlenth_all:mean lenth of payload in the flow.
+TCP_playload_meanlenth_up:mean lenth of payload in the up-flow.
+TCP_playload_meanlenth_down:mean lenth of payload in the down-flow.
+TCP_segment_change_all:Number of changes in the TCP segment length in the flow.
+TCP_segment_change_up:Number of changes in the TCP segment length in the up-flow.
+TCP_segment_change_down:Number of changes in the TCP segment length in the down-flow.
+Total_Byte_per_second:Number of bytes per second of communication.
+Total_down_bytes:the number of bytes in th down-flow.
+Total_down_packets: the number of packets in the down-flow.
+Total_packets_per_second:Number of packets per second of communication.
+Total_up_bytes:the number of bytes in th up-flow.
+Total_up_packets: the number of packets in the up-flow.
+Up_byte_equality_meter:in the first 4 packets of up-flow, the first 32 bytes of each packet are compared with the same position bytes of the previous packet in the same direction, the same is denoted as 1, the inequality is denoted as 0, and finally the 32-bit binary is converted to the decimal system.
+up_push_flag:number of push flags in the up-flow.
